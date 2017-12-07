@@ -48,8 +48,8 @@ cp test_migration_snapshot_rollout.sh $SITE_DIR/sites/default
 
 # copy all php files to SITE_ADMIN_DIR excluding settings.php and opsmonitor.php
 cp *.php $SITE_ADMIN_DIR
-rm $SITE_ADMIN_DIR/opsmonitor.php
-rm $SITE_ADMIN_DIR/settings.php
+#rm $SITE_ADMIN_DIR/opsmonitor.php
+#rm $SITE_ADMIN_DIR/settings.php
 # copy opsmonitor.php
 cp opsmonitor.php $MONITORS_DIR
 cp -r performance $SITE_ADMIN_DIR
